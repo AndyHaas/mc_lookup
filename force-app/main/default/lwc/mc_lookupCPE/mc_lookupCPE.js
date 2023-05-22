@@ -98,7 +98,7 @@ export default class Mc_lookupCPE extends LightningElement {
     convertValueToType(value) {
         // Value starts with $GlobalConstant
         // Type is Boolean
-        if (value.startsWith('$GlobalConstant')) {
+        if (typeof value === 'string' && value.startsWith('$GlobalConstant')) {
             return DATA_TYPE.BOOLEAN;
         } else {
             return DATA_TYPE.STRING;

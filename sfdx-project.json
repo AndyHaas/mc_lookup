@@ -5,7 +5,7 @@
       "default": true,
       "package": "MC_Lookup",
       "versionName": "ver 2.0",
-      "versionNumber": "0.3.2.NEXT",
+      "versionNumber": "0.3.3.NEXT",
       "versionDescription": "",
       "dependencies": [
         {
@@ -29,6 +29,7 @@
     "SOQLBuildAndExecute@1.3.1-0": "04tf4000004PtguAAC",
     "FlowActionsBasePack@3.6.0-0": "04t8b000000mKnoAAE",
     "FlowScreenComponentsBasePack@3.0.6-0": "04t5G000003rUvVQAU",
-    "MC_Lookup@0.3.2-1": "04t5e000000Ns84AAC"
+    "MC_Lookup@0.3.2-1": "04t5e000000Ns84AAC",
+    "MC_Lookup@0.3.3-1": "04t5e000000Ns89AAC"
   }
 }
