@@ -295,9 +295,9 @@ export default class Mc_lookupCPE extends LightningElement {
                 console.log('in validate: ' + input + ' is required');
                 let cmp = '';
                 if(input == 'fieldsToDisplay'){
-                    cmp = 'c-fsc_field-selector-3'
+                    cmp = 'c-mc_field-selector-3'
                 } else if (input == 'objectName'){
-                    cmp = 'c-fsc_object-selector-3'
+                    cmp = 'c-mc_object-selector-3'
                 }
                 const allValid = [...this.template.querySelectorAll(cmp)]
                 .reduce((validSoFar, inputCmp) => {
@@ -347,7 +347,7 @@ export default class Mc_lookupCPE extends LightningElement {
     handleValueChange(event) {
         console.log('in handleValueChange: ');
         if (event.detail && event.target) {
-            // Any component using fsc_flow-combobox will be ran through here
+            // Any component using mc_flow-combobox will be ran through here
             // This is the newer version and will allow users to use merge fields
             // If event.detail.newValue is set then use it, otherwise use event.detail.value
             let newValue = event.detail.newValue;
